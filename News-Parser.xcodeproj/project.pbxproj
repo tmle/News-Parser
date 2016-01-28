@@ -42,7 +42,7 @@
 		3202D2701C3D8C1600C2176A = {
 			isa = PBXGroup;
 			children = (
-				3202D27B1C3D8C1700C2176A /* Blog-Reader */,
+				3202D27B1C3D8C1700C2176A /* News-Parser */,
 				3202D27A1C3D8C1700C2176A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,7 +55,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3202D27B1C3D8C1700C2176A /* Blog-Reader */ = {
+		3202D27B1C3D8C1700C2176A /* News-Parser */ = {
 			isa = PBXGroup;
 			children = (
 				3202D27C1C3D8C1700C2176A /* AppDelegate.swift */,
@@ -67,6 +67,7 @@
 				3202D28D1C3D8C1900C2176A /* Info.plist */,
 				3202D27E1C3D8C1800C2176A /* Blog_Reader.xcdatamodeld */,
 			);
+			name = "News-Parser";
 			path = "Blog-Reader";
 			sourceTree = "<group>";
 		};

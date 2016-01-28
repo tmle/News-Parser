@@ -21,6 +21,7 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
+        
         if let detail = self.detailItem {
             if let postWebView = self.webView {
                 postWebView.loadHTMLString(detail.valueForKey("content")!.description, baseURL: NSURL(string: "http://googleblog.blogspot.co.uk/"))
@@ -32,6 +33,9 @@ class DetailViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.configureView()
+        
+        webView.scalesPageToFit = true;
+        
     }
 
     override func didReceiveMemoryWarning() {

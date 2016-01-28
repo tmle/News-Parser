@@ -34,16 +34,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VB1-oO-gbW">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="20" y="0.0" width="560" height="600"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VB1-oO-gbW" firstAttribute="top" secondItem="svH-Pt-448" secondAttribute="topMargin" id="0oz-hT-olm"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VB1-oO-gbW" secondAttribute="trailing" constant="-20" id="5hv-6p-iYx"/>
-                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="VB1-oO-gbW" secondAttribute="bottom" id="QAw-AD-tuk"/>
-                            <constraint firstItem="VB1-oO-gbW" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leadingMargin" constant="-20" id="Snw-1d-YCO"/>
+                            <constraint firstItem="GAO-Cl-Wes" firstAttribute="top" secondItem="VB1-oO-gbW" secondAttribute="bottom" id="BZ7-9d-cH2"/>
+                            <constraint firstItem="VB1-oO-gbW" firstAttribute="leading" secondItem="svH-Pt-448" secondAttribute="leadingMargin" id="Uh7-M8-Nci"/>
+                            <constraint firstItem="VB1-oO-gbW" firstAttribute="trailing" secondItem="svH-Pt-448" secondAttribute="trailingMargin" id="ZnK-pZ-uzw"/>
+                            <constraint firstItem="VB1-oO-gbW" firstAttribute="top" secondItem="svH-Pt-448" secondAttribute="topMargin" id="yc2-ZW-HiH"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
